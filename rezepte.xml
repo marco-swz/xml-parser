@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rezepte-sammlung>
+  <titel>Das Beste aus Omas und Opas Küche</titel>
+
+  <rezept>
+    <titel>Spiegelei</titel>
+    <zutaten>
+      <zutat id="ei" menge="1">Ei</zutat>
+      <zutat id="fett">etwas Fett</zutat>
+    </zutaten>
+    <zubereitung dauer="3 min">
+      Erhitzen Sie das <zutat ref="fett">Fett</zutat> in einer
+      Pfanne und geben Sie das <zutat ref="ei">Ei</zutat> dazu.
+      Braten Sie alles bei mittlerer Hitze ca. 2 Minuten.
+      Servieren Sie das Gericht mit einem kühlen Glas Bier.
+    </zubereitung>
+    <idee name="Fritz Meier" />
+  </rezept>
+
+  <rezept>
+    <titel>Kühles Bier</titel>
+    <zubereitung dauer="10 s">
+      Gehen Sie zum Kühlschrank und nehmen Sie sich die erste Flasche
+      aus der Kühlschranktür.
+    </zubereitung>
+  </rezept>
+
+  
+  <rezept>
+    <titel>Russischer Quark</titel>
+    <zutaten>
+      <zutat menge="250 g">Magerquark</zutat>
+      <zutat menge="1">Ei</zutat>
+      <zutat menge="2 EL">Honig</zutat>
+      <zutat menge="2 Prisen">Vanillepulver</zutat>
+      <zutat menge="1/2">Zitronensaft</zutat>
+    </zutaten>
+    <zubereitung dauer="5 min">
+      Die Zutaten mit dem Schneebesen gut verrühren.
+    </zubereitung>
+    <idee name="Benita von Eichborn" />
+    <idee name="Ingrid Früchtel" />
+    <idee name="Marey Kurz" />
+    <idee name="Eva Rittinger" />
+  </rezept>
+
+  <rezept>
+    <titel>Schnelle Vollkornpfannkuchen</titel>
+    <zutaten>
+      <zutat id="sv-weizen" menge="250 g">Weizen</zutat>
+      <zutat id="sv-ei" menge="4">Eier</zutat>
+      <zutat id="sv-milch" menge="3/8 l">Milch</zutat>
+      <zutat id="sv-salz" menge="1/2 TL">Salz</zutat>
+      <zutat id="sv-muskat" menge="1 Prise">geriebene Muskatnuss</zutat>
+      <zutat id="sv-oel">Öl zum Braten</zutat>
+    </zutaten>
+    <zubereitung dauer="20 min">
+      Den <zutat ref="sv-weizen">Weizen</zutat> mehlfein mahlen. Das
+      Mehl mit den <zutat ref="sv-ei">Eiern</zutat>,
+      der <zutat ref="sv-milch">Milch</zutat>,
+      dem <zutat ref="sv-salz">Salz</zutat> und
+      dem <zutat ref="sv-muskat">Muskat</zutat> gut verrühren.
+      <zutat ref="sv-oel">Öl</zutat> in einer Pfanne erhitzen und aus dem
+      Teig dünne Pfannkuchen backen.
+    </zubereitung>
+    <idee name="Marey Kurz" />
+    <idee name="Eva Rittinger" />
+  </rezept>
+
+  <rezept>
+    <titel>Apfelmeerrettich</titel>
+    <zutaten>
+      <zutat id="am-meer" menge="5 cm">frischer Meerrettich</zutat>
+      <zutat id="am-apfel" menge="3">Äpfel</zutat>
+      <zutat id="am-sahne" menge="200 g">saure Sahne</zutat>
+    </zutaten>
+    <zubereitung dauer="5 min">
+      Den <zutat ref="am-meer">Meerrettich</zutat> schälen und feinreiben.
+      Die <zutat ref="am-apfel">Äpfel</zutat> waschen, möglichst ungeschält
+      ringsherum bis zum Kerngehäuse abreiben (grobe Reibe). Beides mit der
+      <zutat ref="am-sahne">sauren Sahne</zutat> mischen.
+    </zubereitung>
+    <idee name="Benita von Eichborn" />
+    <idee name="Ingrid Früchtel" />
+    <idee name="Marey Kurz" />
+  </rezept>
+
+  <rezept>
+    <titel>Schoko-Obstsalat</titel>
+    <zutaten>
+      <zutat id="so-banane" menge="1">Banane</zutat>
+      <zutat id="so-milch" menge="1/4 l">Milch</zutat>
+      <zutat id="so-honig" menge="1 1/2 EL">Honig</zutat>
+      <zutat id="so-kakao" menge="1 EL">Kakao</zutat>
+      <zutat id="so-orange" menge="1 TL">abgeriebene Orangenschale</zutat>
+      <zutat id="so-vanille" menge="1 Prise">Vanillepulver</zutat>
+      <zutat id="so-apfel" menge="1">Apfel</zutat>
+      <zutat id="so-birne" menge="1">Birne</zutat>
+    </zutaten>
+    <zubereitung dauer="5 min">
+      Die <zutat ref="so-banane">Banane</zutat> schälen, grob zerkleinern,
+      mit der <zutat ref="so-milch">Milch</zutat>,
+      dem <zutat ref="so-honig">Honig</zutat>,
+      dem <zutat ref="so-kakao">Kakao</zutat>,
+      der <zutat ref="so-orange">Orangenschale</zutat> und
+      der <zutat ref="so-vanille">Vanille</zutat> in den Mixer füllen und
+      feinmixen. Den <zutat ref="so-apfel">Apfel</zutat> und
+      die <zutat ref="so-birne">Birne</zutat> waschen, entkernen, in Würfel
+      schneiden und die Bananencreme darübergießen.
+    </zubereitung>
+    <idee name="Benita von Eichborn" />
+    <idee name="Ingrid Früchtel" />
+    <idee name="Eva Rittinger" />
+  </rezept>
+  
+  <rezept>
+    <titel>Russische Creme</titel>
+    <zutaten>
+      <zutat id="rc-sahne" menge="400 g">Sahne</zutat>
+      <zutat id="rc-ei" menge="3">Eigelbe</zutat>
+      <zutat id="rc-honig" menge="2 EL">Honig</zutat>
+      <zutat id="rc-rum" menge="3 EL">Rum</zutat>
+    </zutaten>
+    <zubereitung dauer="10 min">
+      Die <zutat ref="rc-sahne">Sahne</zutat> steif schlagen. Die
+      <zutat ref="rc-ei">Eigelbe</zutat> und den
+      <zutat ref="rc-honig">Honig</zutat> mit den Quirlen des Handrührgerätes
+      cremig rühren, dann tropfenweise den <zutat ref="rc-rum">Rum</zutat>
+      unterrühren. Die <zutat ref="rc-sahne">Sahne</zutat> unter die
+      Rumcreme heben. Die Creme in vier Portionsgläser füllen und bis zum
+      Servieren kühl stellen.
+    </zubereitung>
+    <idee name="Benita von Eichborn" />
+    <idee name="Ingrid Früchtel" />
+    <idee name="Marey Kurz" />
+    <idee name="Eva Rittinger" />
+  </rezept>
+
+</rezepte-sammlung>
