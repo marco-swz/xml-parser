@@ -14,7 +14,6 @@
                         rust-overlay.overlays.default
                     ];
                 };
-
             in {
                 devShell = pkgs.mkShell {
                     buildInputs = with pkgs; [ 
