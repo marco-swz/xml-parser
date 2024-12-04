@@ -1,5 +1,7 @@
-use anyhow::{anyhow, Result};
-use std::fs::{read_to_string, File, OpenOptions};
+use anyhow::Result;
+use xml_parser::parse_duration;
+use std::fs::{read_to_string, File};
+
 use xmltree::{self, Element, XMLNode};
 
 fn main() -> Result<()> {
@@ -19,7 +21,10 @@ fn main() -> Result<()> {
 
     root.children.push(XMLNode::Element(average_elem));
 
-    let file = File::options().write(true).create_new(true).open("out.xml")?;
+    let file = File::options()
+        .write(true)
+        .create_new(true)
+        .open("out.xml")?;
     root.write(file)?;
     Ok(())
 }
@@ -77,12 +82,4 @@ fn process_node(node: XMLNode, level: usize) -> Option<(XMLNode, f64, usize)> {
         }
         _ => Some((node, 0., 0)),
     }
-}
-
-fn parse_duration(duration_text: &str) -> Result<f64> {
-    return match duration_text.split_whitespace().collect::<Vec<_>>()[..] {
-        [t, "min"] => Ok(t.parse::<f64>()? * 60.),
-        [t, "s"] => Ok(t.parse::<f64>()?),
-        _ => Err(anyhow!("failed to parse duration")),
-    };
 }

@@ -3,6 +3,16 @@ name = "xml-parser"
 version = "0.1.0"
 edition = "2021"
 
+
+[[bin]]
+name = "task8"
+path = "src/task8.rs"
+
+[[bin]]
+name = "task9"
+path = "src/task9.rs"
+
 [dependencies]
 anyhow = "1.0.93"
+xml-rs = "0.8.24"
 xmltree = "0.11.0"

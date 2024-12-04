@@ -1,3 +1,3 @@
 #!/bin/sh
-docker rm temp
-docker rmi temp
+docker rm temp8 temp9
+docker rmi temp8 temp9
